@@ -22,7 +22,7 @@
             android:name=".favoritos"
             android:parentActivityName=".MainActivity">
 
-            
+
             <!-- soporte versiones anteriores a andorid 4 -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
