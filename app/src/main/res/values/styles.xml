@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="miBotonRaised" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorButtonNormal">@color/colorGrisClaro</item>
+        <item name="colorControlHighlight">@color/colorBlanco</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
 </resources>

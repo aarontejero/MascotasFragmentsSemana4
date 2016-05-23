@@ -2,7 +2,6 @@ package aaron_tejero.mascotasrecyclerview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -12,6 +11,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import aaron_tejero.mascotasrecyclerview.Adapter.MascotaAdaptador;
 
 public class favoritos extends AppCompatActivity {
     private RecyclerView recycler;
@@ -34,6 +35,7 @@ public class favoritos extends AppCompatActivity {
         items.add(new Mascota(R.drawable.perro1, "Aquiles", 7));
         items.add(new Mascota(R.drawable.perro5, "Kiara", 4));
         items.add(new Mascota(R.drawable.perro3, "Atena", 3));
+
 
 
         recycler=(RecyclerView) findViewById(R.id.recicladorFav);
